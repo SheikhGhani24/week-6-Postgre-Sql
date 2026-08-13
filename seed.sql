@@ -4,14 +4,14 @@ values
 (2,'Ali','Ali@example.com'),
 (3,'Ahmed','Ahmed@example.com'),
 (4,'Zain','Zain@example.com'),
-(5,'Abdullah','Abdullah@example.com')
+(5,'Abdullah','Abdullah@example.com');
 
 Insert into projects(id,name,owner_id) 
 values
 (1,'E-commerce Website',1),
 (2,'Todo App',2),
 (3,'Portfolio Website',3),
- (4, 'Mobile App', 4)
+ (4, 'Mobile App', 4);
 
 Insert into tasks
     (id, title, description, status, priority, project_id, assignee_id, due_date)
@@ -42,7 +42,7 @@ values
 (3,'Bug'),
 (4,'Urgent'),
 (5,'Documentation'),
-(6,'Testing')
+(6,'Testing');
 
 Insert into task_tags(task_id, tag_id)
 values
@@ -67,4 +67,4 @@ values
 (13,1),
 (14,6),
 (15,2),
-(15,3)
+(15,3);
